@@ -6,7 +6,7 @@
 * Verify if, when entering any combination of invalid username and/or invalid password, the user sees the correct error message
 
 ## To Run
-1) The tests rely on a `credentials.json` file in the root directory (ommitted for security). The file should be formatted as follows:
+1) The tests rely on a `credentials.json` file in the root directory. The file should be formatted as follows:
     ```
     {
         "corr_email": [VALID EMAIL ADDRESS],
@@ -14,6 +14,8 @@
         "incorr_email": [INVALID EMAIL ADDRESS],
         "incorr_pass": [INVALID PASSWORD]
     }
+2) Edit this file to fill in the credentials in brackets ([])
+
 *Note: You need to have a valid email and password combo that is registered with hudl. Any email and password combination will not work.*
     
 2) In your preferred terminal, navigate to the root directory
