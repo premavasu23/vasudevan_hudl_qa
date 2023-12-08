@@ -1,0 +1,22 @@
+{
+  "name": "vasudevan_hudl_qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/premavasu23/vasudevan_hudl_qa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/premavasu23/vasudevan_hudl_qa/issues"
+  },
+  "homepage": "https://github.com/premavasu23/vasudevan_hudl_qa#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.16.0"
+  }
+}
