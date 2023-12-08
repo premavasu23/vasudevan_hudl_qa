@@ -1,11 +1,11 @@
 # Hudl.com Login Testing | Prema Vasudevan
 
-### Test Cases Handled (thus far)
+## Test Cases Handled
 * Verify if a user will be able to log in with valid credentials via the Login button on hudl.com
 * Verify if a user will be able to log in with an invalid username and/or invalid password
 * Verify if, when entering any combination of invalid username and/or invalid password, the user sees the correct error message
 
-### To Run
+## To Run
 1) The tests rely on a `credentials.json` file in the root directory (ommitted for security). The file should be formatted as follows:
     ```
     {
@@ -14,6 +14,7 @@
         "incorr_email": [INVALID EMAIL ADDRESS],
         "incorr_pass": [INVALID PASSWORD]
     }
+*Note: You need to have a valid email and password combo that is registered with hudl. Any email and password combination will not work.*
     
 2) In your preferred terminal, navigate to the root directory
 3) run `npm install` the first time you run this code. You should only need to do this once. 
